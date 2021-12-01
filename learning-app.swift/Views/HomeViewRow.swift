@@ -27,7 +27,8 @@ struct HomeViewRow: View {
                 
             
             HStack {
-                                Image(image)
+                
+                Image(image)
                     .resizable()
                     .frame(width: 116, height: 116)
                     .clipShape(Circle())

@@ -4,12 +4,15 @@
 //
 //  Created by AM Lisp - Luis Robles-Ibarra on 11/29/21.
 //
-
 import Foundation
 
 class ContentModel: ObservableObject {
     
     @Published var modules = [Module]()
+    
+    @Published var currentModule: Module?
+    var currentModuleIndex = 0
+    
     
     var styleData: Data?
     
@@ -18,6 +21,7 @@ class ContentModel: ObservableObject {
         getLocalData()
         
     }
+    
     
     func getLocalData() {
         
@@ -48,4 +52,20 @@ class ContentModel: ObservableObject {
         }
         
     }
+    
+    
+    func beginModule(_ moduleid:Int) {
+        
+        for index in 0..<modules.count {
+            
+            if modules[index].id == moduleid {
+            
+                currentModuleIndex = index
+                break
+            }
+        }
+        
+        currentModule = modules[currentModuleIndex]
+    }
+    
 }
