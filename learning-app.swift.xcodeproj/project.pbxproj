@@ -20,6 +20,7 @@
 		96993B632757B82000C3DD3B /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96993B622757B82000C3DD3B /* ContentViewRow.swift */; };
 		96993B662757CA6600C3DD3B /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96993B652757CA6600C3DD3B /* ContentDetailView.swift */; };
 		96993B692757CCC500C3DD3B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96993B682757CCC500C3DD3B /* Constants.swift */; };
+		96993B6C275919BB00C3DD3B /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96993B6B275919BB00C3DD3B /* CodeTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		96993B622757B82000C3DD3B /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
 		96993B652757CA6600C3DD3B /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 		96993B682757CCC500C3DD3B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		96993B6B275919BB00C3DD3B /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				96993B5F2756813600C3DD3B /* ContentView.swift */,
 				96993B622757B82000C3DD3B /* ContentViewRow.swift */,
 				96993B652757CA6600C3DD3B /* ContentDetailView.swift */,
+				96993B6B275919BB00C3DD3B /* CodeTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				96993B662757CA6600C3DD3B /* ContentDetailView.swift in Sources */,
 				96993B352755314500C3DD3B /* learning_app_swiftApp.swift in Sources */,
 				96993B632757B82000C3DD3B /* ContentViewRow.swift in Sources */,
+				96993B6C275919BB00C3DD3B /* CodeTextView.swift in Sources */,
 				96993B462755322600C3DD3B /* ContentModel.swift in Sources */,
 				96993B542756679500C3DD3B /* Models.swift in Sources */,
 				96993B692757CCC500C3DD3B /* Constants.swift in Sources */,
