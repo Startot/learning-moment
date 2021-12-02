@@ -15,7 +15,7 @@ struct HomeView: View {
         
         NavigationView {
             VStack (alignment: .leading) {
-                Text("What do you want to do today?")
+                Text("What do you want to do today")
                     .padding(.leading, 20)
                 
                 ScrollView {
