@@ -31,7 +31,7 @@ class ContentModel: ObservableObject {
         getLocalData()
         
     }
-    
+        
     func getLocalData() {
         
         let jsonUrl = Bundle.main.url(forResource: "data", withExtension: "json")
@@ -121,6 +121,22 @@ class ContentModel: ObservableObject {
             
             codeText = addStyling(currentQuestion!.content)
         }
+    }
+    
+    func nextQuestion() {
+        
+        currentQuestionIndex += 1
+        
+        if currentQuestionIndex < currentModule!.test.questions.count {
+            
+            currentQuestion = currentModule!.test.questions[currentQuestionIndex]
+            codeText = addStyling(currentQuestion!.content)
+        }
+        else {
+            currentQuestionIndex = 0
+            currentQuestion = nil
+        }
+        
     }
     
     
