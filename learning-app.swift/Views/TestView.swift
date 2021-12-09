@@ -119,6 +119,9 @@ struct TestView: View {
             .navigationBarTitle("\(model.currentModule?.category ?? "") Test")
             
         }
+        else {
+            TestResultView(numCorrect: numCorrect)
+        }
         
     }
     

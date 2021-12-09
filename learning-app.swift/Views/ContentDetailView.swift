@@ -18,17 +18,21 @@ struct ContentDetailView: View {
         let url = URL(string: Constants.videoHostUrl + (lesson?.video ?? ""))
         
         VStack {
+            // Only show video if we get a valid URL
             if url != nil {
                 VideoPlayer(player: AVPlayer(url: url!))
                     .cornerRadius(10)
             }
             
+            // Description
             CodeTextView()
             
+            // Show next lesson button, only if there is a next lesson
             if model.hasNextLesson() {
                 
                 Button(action: {
                     
+                    // Advance the lesson
                     model.nextLesson()
                     
                 }, label: {
@@ -45,9 +49,11 @@ struct ContentDetailView: View {
                 })
             }
             else {
+                // Show the complete button instead
                 
                 Button(action: {
                     
+                    // Take the user back to the homeview
                     model.currentContentSelected = nil
                     
                 }, label: {

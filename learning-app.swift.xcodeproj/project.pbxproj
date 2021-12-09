@@ -23,6 +23,7 @@
 		96993B6C275919BB00C3DD3B /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96993B6B275919BB00C3DD3B /* CodeTextView.swift */; };
 		96993B6F2760F55300C3DD3B /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96993B6E2760F55300C3DD3B /* RectangleCard.swift */; };
 		96993B722760F98700C3DD3B /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96993B712760F98700C3DD3B /* TestView.swift */; };
+		96993B7D27610C0000C3DD3B /* TestResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96993B7C27610C0000C3DD3B /* TestResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		96993B6B275919BB00C3DD3B /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 		96993B6E2760F55300C3DD3B /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
 		96993B712760F98700C3DD3B /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		96993B7C27610C0000C3DD3B /* TestResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				96993B6B275919BB00C3DD3B /* CodeTextView.swift */,
 				96993B6E2760F55300C3DD3B /* RectangleCard.swift */,
 				96993B712760F98700C3DD3B /* TestView.swift */,
+				96993B7C27610C0000C3DD3B /* TestResultView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96993B722760F98700C3DD3B /* TestView.swift in Sources */,
+				96993B7D27610C0000C3DD3B /* TestResultView.swift in Sources */,
 				96993B4D2755327B00C3DD3B /* HomeView.swift in Sources */,
 				96993B5D27566E7500C3DD3B /* HomeViewRow.swift in Sources */,
 				96993B602756813600C3DD3B /* ContentView.swift in Sources */,
